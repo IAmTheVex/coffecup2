@@ -69,7 +69,7 @@ public class SensorColor extends LinearOpMode {
    * in this sample we're changing the background color of the robot controller screen as the
    * opmode runs, and we want to be able to *guarantee* that we restore it to something reasonable
    * and palatable when the opMode ends. The simplest way to do that is to use a try...finally
-   * block around the main, core logic, and an easy way to make that all clear was to separate
+   * block around the main, coffecup.core logic, and an easy way to make that all clear was to separate
    * the former from the latter in separate methods.
    */
   @Override public void runOpMode() throws InterruptedException {
