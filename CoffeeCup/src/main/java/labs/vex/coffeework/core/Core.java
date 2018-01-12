@@ -26,6 +26,7 @@ public class Core {
         }
 
         for(Class resource: this.resources) {
+            ConfigurationManager.resolve(resource);
             ResourceManager.forceResource(resource.getName(), resource);
         }
 

@@ -6,4 +6,5 @@ package coffecup.concretes.opmodes;
 
 public class OpModes {
     public final static String FIRST_TEST = "First test";
+    public final static String RUNTIME = "Runtime";
 }
